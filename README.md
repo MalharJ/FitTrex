@@ -10,6 +10,7 @@ pip install torch, torchvision, PIL, numpy, matplotlib, argparse
 python inference.py -model=resnet18_food101_state_dict -label=food101_labels.txt -img=burger.jpg
 
 Parameters:
+
   -model: the path to the PyTorch dictionary file you want to load
   
   -label: the path to the labels of the food dataset
