@@ -1,7 +1,5 @@
 # FitTrex
-Code for FitTrex
-
-# How to use inference.py:
+Code for FitTrex. How to run inference.py.
 
 # Step 1: Install basic python packages
 
@@ -13,9 +11,12 @@ python inference.py -model=resnet18_food101_state_dict -label=food101_labels.txt
 
 Parameters:
   -model: the path to the PyTorch dictionary file you want to load
+  
   -label: the path to the labels of the food dataset
+  
   -img: the path to the image you want to run inference on
 
 # Be sure to download the following files if you don't clone the repo:
 (1) resnet18_food101_state_dict
+
 (2) food101_labels.txt
